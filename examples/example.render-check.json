@@ -1,0 +1,16 @@
+{
+  "source": "example.svg",
+  "coordinate_system": "Rendered page pixels with ancestor transforms",
+  "limitations": "Does not detect all overlaps, nested clipping, missing glyphs or scientific errors.",
+  "dimensions": {
+    "width": 1400,
+    "height": 850
+  },
+  "panel_titles": [
+    "Evidence-first workflow",
+    "Candidate retention",
+    "Review efficiency study"
+  ],
+  "canvas_overflow": [],
+  "blocked_requests": []
+}

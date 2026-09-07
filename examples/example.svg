@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+<desc>Style demonstration. All counts are illustrative, not measured research results.</desc>
+<rect width="1400" height="850" fill="white"/>
+<text x="40" y="48" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#202937" font-weight="700" text-anchor="start" class="panel-letter">a</text>
+<text x="77" y="48" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#202937" font-weight="600" text-anchor="start" class="panel-title">Evidence-first workflow</text>
+<rect x="65" y="133" width="234" height="117" rx="6" fill="white" stroke="#3164AD" stroke-width="2"/>
+<text x="182" y="204" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#3164AD" font-weight="600" text-anchor="middle" class="">Retrieve</text>
+<path d="M320 192H388" fill="none" stroke="#697586" stroke-width="2.5" stroke-dasharray=""/>
+<path d="M378 186L388 192L378 198" fill="none" stroke="#697586" stroke-width="2.5" stroke-dasharray=""/>
+<rect x="410" y="133" width="234" height="117" rx="6" fill="white" stroke="#7962AB" stroke-width="2"/>
+<text x="527" y="204" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#7962AB" font-weight="600" text-anchor="middle" class="">Evidence</text>
+<path d="M665 192H733" fill="none" stroke="#697586" stroke-width="2.5" stroke-dasharray=""/>
+<path d="M723 186L733 192L723 198" fill="none" stroke="#697586" stroke-width="2.5" stroke-dasharray=""/>
+<rect x="755" y="133" width="234" height="117" rx="6" fill="white" stroke="#BF642F" stroke-width="2"/>
+<text x="872" y="204" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#BF642F" font-weight="600" text-anchor="middle" class="">Review</text>
+<path d="M1010 192H1078" fill="none" stroke="#697586" stroke-width="2.5" stroke-dasharray=""/>
+<path d="M1068 186L1078 192L1068 198" fill="none" stroke="#697586" stroke-width="2.5" stroke-dasharray=""/>
+<rect x="1100" y="133" width="234" height="117" rx="6" fill="white" stroke="#21877B" stroke-width="2"/>
+<text x="1217" y="204" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#21877B" font-weight="600" text-anchor="middle" class="">Accept</text>
+<path d="M872 267V321H527V268" fill="none" stroke="#7962AB" stroke-width="2.5" stroke-dasharray=""/>
+<path d="M521 278L527 268L533 278" fill="none" stroke="#7962AB" stroke-width="2.5" stroke-dasharray=""/>
+<rect x="618" y="300" width="160" height="42" rx="0" fill="white" stroke="white" stroke-width="2"/>
+<text x="698" y="332" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#7962AB" font-weight="400" text-anchor="middle" class="">Recheck</text>
+<path d="M40 383H1360" fill="none" stroke="#DCE2E9" stroke-width="1" stroke-dasharray=""/>
+<text x="40" y="443" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#202937" font-weight="700" text-anchor="start" class="panel-letter">b</text>
+<text x="77" y="443" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#202937" font-weight="600" text-anchor="start" class="panel-title">Candidate retention</text>
+<text x="65" y="504" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#697586" font-weight="400" text-anchor="start" class="">Illustrative counts / 100</text>
+<text x="65" y="596" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#202937" font-weight="400" text-anchor="start" class="">Method A</text>
+<rect x="235" y="566" width="258.3" height="40" rx="1" fill="#3164AD" stroke="#3164AD" stroke-width="2"/>
+<text x="591" y="597" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#202937" font-weight="600" text-anchor="start" class="">82</text>
+<text x="65" y="708" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#202937" font-weight="400" text-anchor="start" class="">Method B</text>
+<rect x="235" y="678" width="233.1" height="40" rx="1" fill="#98A3B1" stroke="#98A3B1" stroke-width="2"/>
+<text x="591" y="709" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#202937" font-weight="600" text-anchor="start" class="">74</text>
+<path d="M235 755H550" fill="none" stroke="#697586" stroke-width="1" stroke-dasharray=""/>
+<text x="235.0" y="797" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">0</text>
+<text x="392.5" y="797" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">50</text>
+<text x="550.0" y="797" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">100</text>
+<path d="M710 425V819" fill="none" stroke="#DCE2E9" stroke-width="1" stroke-dasharray=""/>
+<text x="770" y="443" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#202937" font-weight="700" text-anchor="start" class="panel-letter">c</text>
+<text x="807" y="443" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#202937" font-weight="600" text-anchor="start" class="panel-title">Review efficiency study</text>
+<rect x="795" y="533" width="312" height="68" rx="6" fill="white" stroke="#697586" stroke-width="2"/>
+<text x="951" y="577" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#697586" font-weight="400" text-anchor="middle" class="">Source browsing</text>
+<rect x="795" y="655" width="312" height="68" rx="6" fill="white" stroke="#3164AD" stroke-width="2"/>
+<text x="951" y="699" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#3164AD" font-weight="400" text-anchor="middle" class="">Evidence bundle</text>
+<path d="M1123 567H1151V689H1123" fill="none" stroke="#697586" stroke-width="2" stroke-dasharray=""/>
+<path d="M1151 628H1203" fill="none" stroke="#697586" stroke-width="2.5" stroke-dasharray=""/>
+<path d="M1193 622L1203 628L1193 634" fill="none" stroke="#697586" stroke-width="2.5" stroke-dasharray=""/>
+<text x="1268" y="607" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#202937" font-weight="400" text-anchor="middle" class="">Time</text>
+<text x="1268" y="667" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#202937" font-weight="400" text-anchor="middle" class="">Errors</text>
+<text x="951" y="795" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">Planned comparison</text>
+</svg>

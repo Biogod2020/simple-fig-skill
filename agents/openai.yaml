@@ -1,0 +1,4 @@
+interface:
+  display_name: "Simple Fig"
+  short_description: "Clean scientific figures with concise panel titles"
+  default_prompt: "Use $simple-fig-skill to turn my results and existing assets into concise, editable paper figures with one short title per panel."

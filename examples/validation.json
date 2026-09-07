@@ -1,0 +1,17 @@
+{
+  "skill_frontmatter": "Passed skill-creator quick_validate.py",
+  "unit_and_browser_integration_tests": {
+    "passed": 6,
+    "skipped": 0
+  },
+  "example_render": "Zero canvas text overflows; zero blocked requests",
+  "latex_preview": {
+    "pages": 1,
+    "format": "A4 landscape",
+    "font_or_overfull_warnings": 0,
+    "visual_review": "Final SVG screenshot and final PDF page inspected"
+  },
+  "python_test_version": "3.11.15",
+  "scope": "Illustrative data only; no unpublished project data or biological images",
+  "limitations": "Automated checks do not establish scientific correctness, absence of all collisions, or venue compliance."
+}
