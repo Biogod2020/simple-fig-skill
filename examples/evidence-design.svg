@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="880" viewBox="0 0 1400 880">
+<desc>Illustrative counts only; not experimental data. Aggregate evidence, matched design, and a negative subgroup.</desc>
+<rect width="1400" height="880" fill="white"/>
+<text x="40" y="55" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#202937" font-weight="700" text-anchor="start" class="panel-letter">a</text>
+<text x="77" y="55" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#202937" font-weight="600" text-anchor="start" class="panel-title">Aggregate selection</text>
+<text x="40" y="108" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="start" class="">Synthetic example: 5 cohorts, 50 cases each</text>
+<text x="40" y="207" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#202937" font-weight="400" text-anchor="start" class="">Selector A</text>
+<rect x="265" y="175" width="632.7" height="46" rx="0" fill="#98A3B1" stroke="#98A3B1" stroke-width="2"/>
+<text x="919.7" y="207" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#202937" font-weight="600" text-anchor="start" class="">171/250 (68.4%)</text>
+<text x="40" y="304" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#202937" font-weight="400" text-anchor="start" class="">Selector B</text>
+<rect x="265" y="272" width="703.0" height="46" rx="0" fill="#3164AD" stroke="#3164AD" stroke-width="2"/>
+<text x="990.0" y="304" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#202937" font-weight="600" text-anchor="start" class="">190/250 (76.0%)</text>
+<path d="M265 348H1190.0" fill="none" stroke="#697586" stroke-width="1.5" stroke-dasharray=""/>
+<path d="M265.0 348V356" fill="none" stroke="#697586" stroke-width="1.5" stroke-dasharray=""/>
+<text x="265.0" y="390" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">0</text>
+<path d="M450.0 348V356" fill="none" stroke="#697586" stroke-width="1.5" stroke-dasharray=""/>
+<text x="450.0" y="390" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">50</text>
+<path d="M635.0 348V356" fill="none" stroke="#697586" stroke-width="1.5" stroke-dasharray=""/>
+<text x="635.0" y="390" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">100</text>
+<path d="M820.0 348V356" fill="none" stroke="#697586" stroke-width="1.5" stroke-dasharray=""/>
+<text x="820.0" y="390" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">150</text>
+<path d="M1005.0 348V356" fill="none" stroke="#697586" stroke-width="1.5" stroke-dasharray=""/>
+<text x="1005.0" y="390" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">200</text>
+<path d="M1190.0 348V356" fill="none" stroke="#697586" stroke-width="1.5" stroke-dasharray=""/>
+<text x="1190.0" y="390" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">250</text>
+<text x="1320" y="390" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="end" class="">Correct</text>
+<text x="40" y="488" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#202937" font-weight="700" text-anchor="start" class="panel-letter">b</text>
+<text x="77" y="488" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#202937" font-weight="600" text-anchor="start" class="panel-title">Matched design</text>
+<rect x="40" y="578" width="222" height="128" rx="4" fill="white" stroke="#DCE2E9" stroke-width="2"/>
+<text x="151" y="616" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#202937" font-weight="400" text-anchor="middle" class="">Same cases</text>
+<text x="151" y="652" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">Fixed candidates</text>
+<text x="151" y="688" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">Fixed reference</text>
+<path d="M280 644H313V604H344" fill="none" stroke="#697586" stroke-width="2" stroke-dasharray=""/>
+<path d="M313 644V712H344" fill="none" stroke="#697586" stroke-width="2" stroke-dasharray=""/>
+<path d="M332 604H370" fill="none" stroke="#697586" stroke-width="2.5" stroke-dasharray=""/>
+<path d="M360 598L370 604L360 610" fill="none" stroke="#697586" stroke-width="2.5" stroke-dasharray=""/>
+<path d="M332 712H370" fill="none" stroke="#697586" stroke-width="2.5" stroke-dasharray=""/>
+<path d="M360 706L370 712L360 718" fill="none" stroke="#697586" stroke-width="2.5" stroke-dasharray=""/>
+<rect x="385" y="570" width="197" height="68" rx="4" fill="white" stroke="#697586" stroke-width="2"/>
+<text x="483.5" y="614" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#697586" font-weight="400" text-anchor="middle" class="">Selector A</text>
+<rect x="385" y="678" width="197" height="68" rx="4" fill="white" stroke="#3164AD" stroke-width="2"/>
+<text x="483.5" y="722" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#3164AD" font-weight="400" text-anchor="middle" class="">Selector B</text>
+<text x="690" y="488" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#202937" font-weight="700" text-anchor="start" class="panel-letter">c</text>
+<text x="727" y="488" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#202937" font-weight="600" text-anchor="start" class="panel-title">Cohort boundary</text>
+<text x="690" y="542" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="start" class="">Change in correct selections (B minus A)</text>
+<path d="M900 571V793" fill="none" stroke="#DCE2E9" stroke-width="2" stroke-dasharray=""/>
+<text x="725" y="600" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#202937" font-weight="400" text-anchor="start" class="">A</text>
+<path d="M900 592H1196" fill="none" stroke="#3164AD" stroke-width="3" stroke-dasharray=""/>
+<circle cx="1196" cy="592" r="6" fill="#3164AD"/>
+<text x="1215" y="600" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#3164AD" font-weight="400" text-anchor="start" class="">+8</text>
+<text x="725" y="646" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#202937" font-weight="400" text-anchor="start" class="">B</text>
+<path d="M900 638H1122" fill="none" stroke="#3164AD" stroke-width="3" stroke-dasharray=""/>
+<circle cx="1122" cy="638" r="6" fill="#3164AD"/>
+<text x="1141" y="646" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#3164AD" font-weight="400" text-anchor="start" class="">+6</text>
+<text x="725" y="692" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#202937" font-weight="400" text-anchor="start" class="">C</text>
+<path d="M900 684H1048" fill="none" stroke="#3164AD" stroke-width="3" stroke-dasharray=""/>
+<circle cx="1048" cy="684" r="6" fill="#3164AD"/>
+<text x="1067" y="692" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#3164AD" font-weight="400" text-anchor="start" class="">+4</text>
+<text x="725" y="738" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#202937" font-weight="400" text-anchor="start" class="">D</text>
+<path d="M900 730H974" fill="none" stroke="#3164AD" stroke-width="3" stroke-dasharray=""/>
+<circle cx="974" cy="730" r="6" fill="#3164AD"/>
+<text x="993" y="738" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#3164AD" font-weight="400" text-anchor="start" class="">+2</text>
+<text x="725" y="784" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#202937" font-weight="400" text-anchor="start" class="">E</text>
+<path d="M900 776H863" fill="none" stroke="#BF642F" stroke-width="3" stroke-dasharray=""/>
+<circle cx="863" cy="776" r="6" fill="#BF642F"/>
+<text x="844" y="784" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#BF642F" font-weight="400" text-anchor="end" class="">-1</text>
+<text x="826" y="844" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">-2</text>
+<text x="900" y="844" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">0</text>
+<text x="1048" y="844" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">4</text>
+<text x="1196" y="844" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#697586" font-weight="400" text-anchor="middle" class="">8</text>
+</svg>

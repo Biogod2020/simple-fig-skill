@@ -2,68 +2,108 @@
 
 ## Optional tools
 
-`scripts/svg_figure.py` uses only Python 3.10+ and its standard library. It creates escaped
-SVG text, panel headings, simple shapes, inline raster assets, and a metadata
-description. For complex statistical plots, use the project's existing tools
-and preserve editable vector export where feasible.
+`scripts/svg_figure.py` uses only Python 3.10+ and its standard library. It creates
+escaped SVG text, panel headings, shapes, inline raster assets and descriptions.
+For complex statistical plots, reuse the project's existing Python/R tools and
+preserve editable vector export where feasible.
 
 ```bash
-python scripts/make_example.py --out /tmp/simple-fig-demo/example.svg
-node scripts/render_svg.cjs /tmp/simple-fig-demo/example.svg
+python scripts/make_example.py --out build/example.svg
+node scripts/render_svg.cjs build/example.svg
+
+# Evidence-led design demo; every count is synthetic.
+python scripts/make_evidence_example.py --out build/evidence-design.svg
+node scripts/render_svg.cjs build/evidence-design.svg \
+  --width-mm 180 --min-font-pt 7 --strict
 ```
 
-The renderer needs Node.js, Playwright and a Chromium executable. Reuse an
-available environment first. `PLAYWRIGHT_MODULE` may name an installed module
-or absolute module directory; `CHROMIUM_PATH` may specify an existing browser.
-Otherwise the script uses normal `require('playwright')` resolution and its
-configured browser. When installing dependencies is appropriate for the task,
-install them in a task-local environment; this skill does not install or update
-anything automatically. `CHROMIUM_NO_SANDBOX=1` is an opt-in for environments
-that require that browser flag; the default keeps the browser sandbox enabled.
+The renderer needs Node.js, Playwright and Chromium. Reuse an available
+environment first. `PLAYWRIGHT_MODULE` may name an installed module or absolute
+module directory; `CHROMIUM_PATH` may specify an existing browser. Otherwise
+normal `require('playwright')` resolution and its configured browser are used.
+When dependency installation is appropriate, use a task-local environment;
+nothing is installed or updated automatically. `CHROMIUM_NO_SANDBOX=1` is an
+explicit opt-in for environments that need that flag; the default retains the
+browser sandbox. No plotting backend, external API or new dependency is required
+by the added checks.
 
-Inputs must be self-contained SVGs with a numeric `viewBox`. Inline local raster
-images as data URIs (`SvgFigure.image` does this). The renderer blocks external
-network requests and reports blocked external loads; it does not fetch remote
-scientific material implicitly. It refuses destination/source name collisions
-in a batch. Outputs are sibling `.png`, `.pdf`, `.render-check.json` files, or
-go to `--out-dir DIRECTORY`; those generated outputs are overwritten on rerun.
+Inputs must be static, self-contained SVGs with a positive numeric `viewBox`.
+Inline raster images as data URIs (`SvgFigure.image` does this). External
+requests are blocked and reported. Scripts, event handlers and foreignObject
+are rejected. This is not a general-purpose sanitizer for hostile SVGs.
 
-Chromium prints the native inline SVG to PDF, preserving vector text and shapes.
-Raster images remain raster; a PDF extension does not make them vector.
+Outputs are sibling `.png`, `.pdf` and `.render-check.json` files, or go to
+`--out-dir DIRECTORY`. They are overwritten on rerun. Batch output-name
+collisions are rejected. A failed run can leave diagnostic or previous output
+files; use the exit status and the latest JSON, not file existence, to decide
+whether a render succeeded.
+
+## Physical size and automated checks
+
+Without `--width-mm`, the original viewBox-sized preview behavior is retained.
+It is a layout proof, **not** a final-size typography audit. Root SVG width/height
+attributes alone do not select publication size in this renderer.
+
+With `--width-mm N`, the PDF is printed at that width and its proportional
+height. The PNG remains a viewBox-resolution screen preview; it is not a
+300-dpi submission raster or proof of print-only CSS. Inspect/rasterize the PDF
+for those purposes. Verify the exported PDF's actual page size with `pdfinfo`
+or a PDF reader; browser pagination can round physical dimensions slightly.
+
+The JSON reports:
+
+- `canvas_overflow`: transformed text outside the root canvas (hard failure).
+- `text_collisions`: candidate overlaps between rendered text-element boxes.
+  Rotated labels can produce false positives because the boxes are axis-aligned.
+- `font_check`: optional final-width effective font sizes including ancestor
+  transforms and tspan sizing. Default threshold: 7 pt, an editorial check,
+  **not** a universal journal requirement. `--min-font-pt` requires `--width-mm`.
+- `blocked_requests`, final dimensions and a limited-check status.
+
+Checks run in print media after final sizing. A screenshot alone is not the
+same artifact as that printed layout. The font check inspects CSS em size, not
+every glyph outline; outlined/raster text cannot be checked and missing fonts,
+font substitutions, font licensing and missing glyphs remain manual checks.
+A no-editable-text document is `NOT AUDITABLE`, never a font-check pass.
+
+Errors, external loads and canvas overflow exit nonzero. Candidate collisions,
+small text and non-auditable typography produce `REVIEW REQUIRED`; `--strict`
+makes them exit nonzero too. Diagnostic PDF/PNG files may still be written.
+`PREVIEW ONLY` means no final width was supplied. `AUTOMATED CHECKS PASSED` means
+only the implemented checks passed. Nothing automatically fixes labels, hides
+results, or establishes complete publication compliance.
+
+## Manual review and PDF verification
+
+1. Verify sources, run/cohort, estimands, independent units, denominators,
+   exclusions and whether panels are measured, legacy examples or planned.
+2. Inspect every panel and the entire figure at intended width. Check text/data
+   collisions, image scale bars, legend contrast, clipping, actual fonts and
+   caption correspondence. Preserve scientifically meaningful color mappings.
+3. Measure final comparable plot areas: shared edges, axis baselines, widths,
+   heights and repeated gutters. A hero panel can intentionally span cells;
+   document comparable groups and exceptions. The renderer does not do this
+   alignment audit, and text-box checks do not substitute for it.
+4. Inspect the actual PDF: page count, physical size, selectable text and a
+   rasterized render (for example `pdftoppm`). Inspect uncertainty and overlaid
+   data marks manually. For raster submission, export from the final PDF at
+   the required DPI and verify embedded-image resolution separately.
+5. Keep a short validation record of completed checks and unresolved warnings.
+   Fix the cause and rerender after changes. Do not lower a threshold simply
+   to hide unreadable text. Verify the venue's current instructions separately.
 
 ## LaTeX preview
 
-Copy [preview.tex](../assets/preview.tex) to the render directory, update its
-figure filenames and captions, then compile with a compatible LaTeX engine:
+Copy [preview.tex](../assets/preview.tex) to the render directory, update the
+filenames and captions, and compile with a compatible engine:
 
 ```bash
 tectonic preview.tex --keep-logs
 # Or use an existing pdflatex / latexmk setup for this English template.
 ```
 
-The template uses ordinary `graphicx` and `geometry`, no bundled fonts. For
-Chinese captions, use a suitable XeLaTeX/fontspec/xeCJK setup with verified
-available fonts. Do not silently substitute missing glyphs. A landscape preview
-is for design review, not a substitute for the target paper template.
-
-## What to check
-
-1. Verify the data manifest: run/cohort, units, denominators, definitions,
-   selected subset, and whether panels are measured, legacy examples or planned.
-2. Inspect every rendered page at intended paper width. Check cropped text,
-   collisions, whitespace, legend contrast, arrows, panel correspondence and
-   readability of image scale bars. Preserve scientifically meaningful colors.
-3. For nested SVGs, `getBBox()` alone is in local coordinates. The renderer uses
-   `getBoundingClientRect()` so rotated text and ancestor transforms are included.
-   Its canvas-bound check does **not** establish that nested clipping, overlaps,
-   tiny text, missing glyphs, or scientifically wrong diagrams are absent.
-4. Inspect the actual PDF, not only the SVG screenshot. When available, use
-   `pdfinfo` for page count and `pdftoppm` for page renders. Check LaTeX logs for
-   overfull boxes, missing glyphs and font warnings.
-5. Keep a brief validation record stating the checks actually completed and
-   remaining limitations. Do not claim full venue compliance from these helpers.
-
-The renderer exits nonzero for errors or detected canvas overflow and still
-writes a check record when possible. It does not automatically modify labels,
-hide failures, resize the figure, or claim that the content is scientifically
-valid. Fix the cause and rerender the changed artifact.
+The template uses `graphicx` and `geometry`, no bundled fonts. For Chinese
+captions, use a suitable XeLaTeX/fontspec/xeCJK setup with verified available
+fonts. Check overfull boxes, missing glyphs and font warnings. A landscape
+preview does not replace the target paper template. Scaling a checked PDF again
+in LaTeX changes its effective text size; inspect that final placement too.

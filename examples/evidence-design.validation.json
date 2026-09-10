@@ -1,0 +1,55 @@
+{
+  "source": "evidence-design.svg",
+  "coordinate_system": "Rendered page CSS pixels with ancestor transforms",
+  "limitations": "Text-box overlaps are heuristic. Does not audit text/mark collisions, all clipping, actual glyph outlines, font substitution, panel alignment, raster DPI or scientific validity.",
+  "final_size": {
+    "width_mm": 180,
+    "height_mm": 113.14285714285714
+  },
+  "dimensions": {
+    "width": 1400,
+    "height": 880
+  },
+  "panel_titles": [
+    "Aggregate selection",
+    "Matched design",
+    "Cohort boundary"
+  ],
+  "canvas_overflow": [],
+  "text_collisions": [],
+  "font_check": {
+    "status": "PASS",
+    "threshold_pt": 7,
+    "minimum_pt": 9.47578125,
+    "small_text": []
+  },
+  "blocked_requests": [],
+  "status": "AUTOMATED CHECKS PASSED",
+  "verification": {
+    "browser_tests": {
+      "total": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "pdf": {
+      "pages": 1,
+      "page_width_mm": 179.91666666666666,
+      "page_height_mm": 113.28399827745224,
+      "minimum_pdf_font_pt": 9.47249984741211,
+      "fonts": [
+        "Arimo",
+        "Arimo-Bold"
+      ],
+      "selectable_text": true,
+      "text_spans": 38
+    },
+    "manual_review": "SVG preview and rasterized final PDF inspected; no observed clipping or unintended text overlap in this demo.",
+    "not_claimed": [
+      "Full text/mark collision audit",
+      "Automatic plot-area alignment audit",
+      "Journal compliance",
+      "Scientific validity of synthetic counts"
+    ]
+  }
+}
