@@ -39,6 +39,7 @@ git clone https://github.com/Biogod2020/simple-fig-skill.git ~/.codex/skills/sim
 
 - [原有风格指南](references/style-guide.md)：标题、配色、留白与字号。
 - [证据与出版设计](references/evidence-design.md)：面板角色、版式、色系和图形选择，复杂设计时按需读取。
+- [定量比较实战指南](references/quantitative-comparisons.md)：经典图型、观测点与均值、紧凑布局、显著性标记，以及保留已认可设计的小幅修改。
 - [导出与检查](references/export-and-check.md)：浏览器导出、实际宽度、检查边界与 LaTeX。
 - [SVG 工具](scripts/svg_figure.py)、[新示例源码](scripts/make_evidence_example.py)与[可编辑 SVG](examples/evidence-design.svg)。
 - [原示例](examples/example.svg)与[LaTeX 模板](assets/preview.tex)仍然保留。

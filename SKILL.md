@@ -41,6 +41,12 @@ each panel's inferential role, and intended physical width. This may be a short
 note beside the source, not a mandatory separate planning document. A small
 label edit should not trigger a new figure-planning ceremony.
 
+For quantitative comparisons, especially dense benchmark or image-plus-result
+figures, read [quantitative-comparisons.md](references/quantitative-comparisons.md).
+It covers familiar plot types, compact panel composition, observation-level
+detail and significance annotation. For a small annotation edit, use its
+annotation and revision guidance without restarting the analysis or layout.
+
 Reuse the task's existing Python, R or SVG workflow. For a new simple diagram,
 use native SVG; for statistical plots use a suitable available plotting tool.
 Do not interrupt routine work with a compulsory backend question, persist new

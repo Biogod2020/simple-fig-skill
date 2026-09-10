@@ -80,3 +80,7 @@ Stacked class counts describe composition, not accuracy. Do not let a selected
 cohort imply global recall. Show failures and missingness in the denominator or
 caption. Use uncertainty only when its estimand and computation are supported.
 Do not add stars or error bars just because a conference figure often has them.
+
+For dense method comparisons, see [quantitative-comparisons.md](quantitative-comparisons.md)
+for grouped bars with observations, compact effect plots and significant-only
+annotation with complete statistical reporting outside the artwork.
