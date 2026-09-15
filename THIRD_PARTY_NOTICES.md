@@ -40,3 +40,17 @@ This notice and the bundled third-party license apply to the identified
 adaptation; they do not retroactively relicense unrelated pre-existing files.
 Separately licensed materials referenced by upstream are not covered merely
 because its root repository uses Apache-2.0; none are vendored here.
+
+## 2026-09-15 session and paper-pattern guidance
+
+The new `references/session-lessons.md`, `references/agent-method-figures.md`
+and `references/paper-patterns.md` are independently written syntheses of
+author feedback and previously inspected research-figure designs. The paper
+index identifies 13 original publications/preprint versions and specific
+figure locations. It is not an adaptation of additional nature-skills files.
+
+Those papers are cited as design references only. Their PDF pages, screenshots,
+icons, scientific images, code and result data are not redistributed here.
+Publications and authors retain their respective rights; citation implies
+neither endorsement nor a common mandated journal style. This addition does
+not change the license scope of the pre-existing adaptation above.

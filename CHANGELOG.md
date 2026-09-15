@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-09-15 — Concrete agent figures and resolved author preferences
+
+- Summarize the full figure-review cycle, separating enduring preferences
+  from superseded height ratios, figure counts and individual chart choices.
+- Clarify that short titles still need concise object/action labels; use dark
+  ordinary text and local annotation rather than pale-gray subtitle rows.
+- Add concrete agent/tool/observation/repair guidance, role-bearing SVG robots,
+  visual QC decomposition and a distinction between overview and local method
+  figures. Reject artificial complexity and hand-drawn “roughness.”
+- Add a retrospective 13-paper design index with venue/version, actual figure
+  locations, transferable patterns and limits. Do not claim a fresh systematic
+  review, field-wide prevalence, official styling rules or journal compliance.
+- Clarify tables versus meaningful matrices, mixed plot types, compact case/ROC
+  composition, and honest reporting of selected error subsets.
+- Document selective rasterization of dense scientific layers, preserved vector
+  labels, final-size checks and a versioned paper/code/data/caption entrypoint.
+- Update discovery/UI text and README navigation. No runtime, plotting script,
+  example image or dependency changes; no private research assets are included.
+
 ## 2026-09-10 — Quantitative comparison refinement
 
 - Add an on-demand guide distilled from iterative figure review: familiar

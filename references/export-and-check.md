@@ -40,6 +40,31 @@ whether a render succeeded.
 
 ## Physical size and automated checks
 
+### Hybrid vector/raster figures
+
+Dense spot maps need not create thousands of SVG nodes or PDF vector paths.
+Render the dense layer to an embedded PNG at its final physical size and a
+justified resolution; keep labels, axes, arrows, selected-point markers and
+crosshairs vector. PNG suits discrete overlays, masks and transparent layers;
+JPEG may suit a continuous-tone photographic preview when compression does not
+erase interpretable detail. Retain source assets and disclose any resampling.
+
+Rasterization changes representation, not cohort membership: do not thin spots,
+drop observations or change coordinates to reduce file size. A displayed
+selected point may be emphasized over the complete raster field. For coordinate
+identity, x/y crosshairs and a selected point can explain location more clearly
+than introducing a heatmap that would imply a measured scalar.
+
+Choose resolution from placement: `pixels = width_mm / 25.4 * target_dpi`.
+The target depends on image content and the actual output requirements; 300 dpi
+is not a universal solution for fine point overlays. Inspect at publication
+width and enlarged scale, preserve aspect ratio and scale bars, and check that
+all embedded assets load without local absolute paths. Record file size and
+observed open/render behavior when these motivated the change. The bundled
+renderer does not automatically audit embedded-image DPI or loading speed.
+
+### Print-size checks
+
 Without `--width-mm`, the original viewBox-sized preview behavior is retained.
 It is a layout proof, **not** a final-size typography audit. Root SVG width/height
 attributes alone do not select publication size in this renderer.
@@ -107,3 +132,20 @@ captions, use a suitable XeLaTeX/fontspec/xeCJK setup with verified available
 fonts. Check overfull boxes, missing glyphs and font warnings. A landscape
 preview does not replace the target paper template. Scaling a checked PDF again
 in LaTeX changes its effective text size; inspect that final placement too.
+
+## Paper entrypoint and versioned revisions
+
+When the user wants one paper workspace, reuse or create a clear entrypoint
+linking the current manuscript, captions, main figures, plotting code and fixed
+inputs. Keep a compact mapping from figure/panel to script, input version/hash,
+export filenames and reference-design notes. Avoid ambiguous “latest” copies
+without a recorded version; manuscript and figure versions may differ.
+
+For local changes, preserve approved image fields, geometry and data; compare
+unchanged regions when useful and rebuild the affected export and its manuscript
+placement. An A4 review master can have a separate caption sheet; it does not
+guarantee legibility after fitting into a conference page. Do not silently add
+another main figure or replace an illustrative panel with a metric. Follow the
+current requested grouping, height and version naming, and update the caption
+and entrypoint together. A proposal for three ranked variants is appropriate
+when requested, not the default for every correction.

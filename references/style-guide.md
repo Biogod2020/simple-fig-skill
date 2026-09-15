@@ -12,7 +12,12 @@ the scientific claim, definitions and limitations.
 
 Use a portable sans-serif family consistently (for example Arial/Helvetica or
 a verified installed substitute). Verify the actual font used by the renderer.
-Node labels should be lighter than titles; numbers should be directly readable.
+Node labels can use a lighter font weight than titles, but ordinary text stays
+dark: do not use pale gray to create hierarchy. Prefer `#222222` throughout a
+reference-matched figure, including axes, ticks, legends, scale bars and local
+annotations. White text is reserved for genuinely dark cells or backgrounds.
+“No subtitle” does not remove the brief action/object labels needed to read a
+workflow. Keep them next to their object rather than in another full-width row.
 
 For a 1400 × 850 SVG, start with:
 
@@ -39,7 +44,7 @@ labels or simplify the panel if needed; do not rely on zoomed previews.
 | Role | Color | Use |
 |---|---|---|
 | Ink | `#202937` | Titles and primary text |
-| Muted | `#697586` | Secondary text and neutral marks |
+| Muted | `#697586` | Neutral graphical marks; ordinary text still uses ink |
 | Blue | `#3164AD` | Primary method / evidence |
 | Purple | `#7962AB` | Transformation / generation |
 | Teal | `#21877B` | Checks or a distinct class |
@@ -69,8 +74,21 @@ Do not recolor scientific images, masks or heatmaps to match this palette.
   differ, do not present them as a matched field without checking provenance.
 
 Avoid 3D boxes unless the third dimension means something, gradients, shadows,
-thick decorative borders, giant numerals used as marketing claims, emoji,
-terminal walls and large status badges. Small purposeful icons are fine.
+thick decorative borders, giant numerals used as marketing claims, terminal
+walls and large status badges. A quantitative heatmap's continuous color scale
+is a data encoding, not a forbidden decorative gradient.
+
+Use purposeful icons as diagram objects: a magnifier for inspection, a document
+for source evidence, or a restrained robot for an agent. Prefer a consistent
+editable SVG family over platform-dependent emoji. If robots are requested,
+connect them to inputs, operations and feedback; a repeated robot can denote
+successive actions of the same agent and must not imply extra agents. A small
+smile is compatible with a professional outline icon. Avoid toy mascots,
+hand-drawn jitter, distressed textures and deliberate alignment errors.
+
+For concrete workflows, visual density and reference-matched icons, see
+[agent-method-figures.md](agent-method-figures.md). The author's resolved
+preferences and earlier alternatives are in [session-lessons.md](session-lessons.md).
 
 ## Quantitative choices
 

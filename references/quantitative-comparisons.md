@@ -26,6 +26,16 @@ uncertainty are the main evidence, and horizontal layouts when long labels
 need them. Heatmaps suit larger matrices; radar area and decorative ranking
 cards usually make precise method comparisons harder.
 
+Reducing tables does not mean removing meaningful matrices or using dots
+everywhere. A confusion matrix or platform-by-species heatmap encodes a real
+two-dimensional relation. A source-icon column plus a compact percentage
+matrix can make evidence types easier to recognize; define row/column
+denominators. Put long lookup tables of exact scores in a formal table or
+supplement. Pies/donuts are optional for a small number of mutually exclusive
+parts of one whole, especially when requested; overlapping coverage measures
+cannot be added into a whole. Do not give every panel the same plot type just
+for visual uniformity.
+
 ## Add information without adding clutter
 
 An image-plus-benchmark figure can read as **visible change -> breadth of
@@ -111,6 +121,17 @@ asks for high-improvement images, document the selection criterion and label
 them as selected illustrations; do not call them typical or let them replace
 the complete-cohort comparison. Match the image, reference and prediction
 geometry, run and preprocessing before interpreting any visible gain.
+
+A compact ROC may share a panel with the failure case it quantifies. Keep the
+case legible and the axes/legend readable; do not replace the case merely to
+fit a new metric. Identify the dataset, error construction, evaluated scorer
+version and subset in the caption. A favorable large-misalignment subset does
+not establish all-error or current-system performance. If such a subset is
+selected after inspection, disclose that choice and retain the full evaluation
+and conclusion-changing failures in the supplement. AUROC, average precision,
+thresholded sensitivity and precision are distinct quantities. Investigating
+an unexpectedly low AUC starts with versions, rows, labels, score direction and
+aggregation, not selection of a better-looking result.
 
 ## Revise an approved figure without restarting it
 
