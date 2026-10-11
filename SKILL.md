@@ -69,6 +69,13 @@ When continuing this author's style or interpreting requests such as “less AI,
 preferences from superseded local choices. Do not apply historical figure
 counts, height ratios, chart choices or numerical results to unrelated work.
 
+For a substantial redraw after an aesthetic rejection, read
+[composition-from-approved-work.md](references/composition-from-approved-work.md).
+Compare approved complete figures with their scripts and revision history:
+learn the reading path, dominant real material, object-to-result alignment and
+chart grammar. Adding more cells to a numeric heatmap or passing an overlap
+check does not establish that a composition works.
+
 Reuse the task's existing Python, R or SVG workflow. For a new simple diagram,
 use native SVG; for statistical plots use a suitable available plotting tool.
 Do not interrupt routine work with a compulsory backend question, persist new
