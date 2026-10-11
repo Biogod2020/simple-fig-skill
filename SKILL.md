@@ -5,6 +5,11 @@ description: Create or restyle scientific paper figures with restrained ML/Natur
 
 # Simple Fig
 
+For a scientific progress talk, advisor briefing, or proposal deck, use the
+[Simple Research Slides subproject](skills/simple-research-slides/SKILL.md).
+Its slide narrative, speaker notes and screen-layout checks are separate from
+the paper-figure workflow below.
+
 Make the evidence easy to read. Use flat vector geometry, a white background,
 short labels, restrained semantic color, and a clear panel hierarchy. This is
 an editorial style, not an official ICLR or Nature template or a guarantee of

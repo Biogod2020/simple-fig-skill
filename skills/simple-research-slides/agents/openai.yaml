@@ -1,0 +1,4 @@
+interface:
+  display_name: "Simple Research Slides"
+  short_description: "Evidence-led research talks with readable scientific slides"
+  default_prompt: "使用 $simple-research-slides，结合我的周报、现有幻灯片和最新结果制作科研汇报，检查讲稿和实际导出页面。"

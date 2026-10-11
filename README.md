@@ -8,6 +8,26 @@
 
 上图只演示设计：主结果占据上半部，下方分别解释对照设计与失效边界，保留负向子组。**所有数字都是人为构造的演示值，不是实验结果。** [图注与数据说明](examples/evidence-design.md)。
 
+## 子项目：科研汇报幻灯片
+
+[Simple Research Slides](skills/simple-research-slides/SKILL.md) 用于周报转汇报、导师请教和研究提案。它总结了真实制作与返工经验：确认用户认可的参考版本，按数据、方法、结果展开，保留科学图并注明数据角色，分别完成本科生理解审核与实际页面检查。
+
+配套提供 [制作经验](skills/simple-research-slides/references/lessons.md)、[审核 prompt 与导出说明](skills/simple-research-slides/references/review-and-export.md)，以及可直接打开的 [白底大图 HTML 模板](skills/simple-research-slides/assets/starter.html)。模板包含五种可改版式，所有数字和点均为构造示意。主讲时长、页数和期刊目标按当前任务决定。
+
+![Research slide layout — all points and numbers are synthetic](skills/simple-research-slides/assets/preview.png)
+
+独立使用时，将 `skills/simple-research-slides` **完整子目录**放入使用方的技能目录。它可单独使用；本仓库原有的论文绘图入口和工具保持原用途。
+
+> 使用 $simple-research-slides，结合我的周报、已有幻灯片和最新结果，做一份20分钟的导师汇报与请教。保留真实结果图，写清比较数据和筛选角色，附逐页讲稿，并检查实际导出页面。
+
+```bash
+node skills/simple-research-slides/scripts/render_slides.cjs \
+  skills/simple-research-slides/assets/starter.html \
+  --out-dir build/slides-starter --strict
+```
+
+使用已有 Node、Playwright 与 Chromium；沿用下面导出工具的环境变量。输出 PDF、逐页 PNG、讲稿与检查记录。需要可编辑 PPTX 时，使用任务环境已有的演示工具另行生成。
+
 ## 本轮制图经验已纳入
 
 - **作者偏好与返工总结**：[完整记录](references/session-lessons.md)。专业简洁，不走手绘风；普通文字用深色；增加信息密度时补机制和证据，保留认可版做局部修订。
