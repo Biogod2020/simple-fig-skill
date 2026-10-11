@@ -19,8 +19,9 @@ submission compliance.
   annotations; these are not extra titles. Put explanations in the caption.
   Concise does not mean label-free: keep enough object names, actions, units
   and local callouts to understand the figure without first reading its caption.
-  Use dark ink for ordinary text; hierarchy comes from placement, size and
-  weight, not pale-gray explanatory lines.
+  Use plain black ordinary text and a consistent sans-serif family; hierarchy
+  comes from placement, modest size differences and restrained weight, not
+  colored headings, pale-gray explanations or oversized result numbers.
 - Preserve useful source images and recognizable scientific concepts, while
   adapting layout to the current finding. Neither a wholesale redesign nor
   copying every old panel is the default. Move obsolete or weakly related
@@ -93,6 +94,12 @@ experimental design without simulated results; move or replace it for a final
 results figure. The bundled demo numbers are explicitly illustrative and must
 never be reused as research evidence. Preserve conclusion-changing negative
 results; visual emphasis must not conceal a strong comparator or a failure.
+
+For an atlas/gallery or a time series with an incomplete final period, read the
+[gallery and partial-period guidance](references/evidence-design.md#resource-galleries-and-time-trends).
+Choose real examples for the scientific role and visual legibility. Keep
+partial-year observations visibly distinct from complete years, with their
+actual denominator and cutoff; do not alter values to manufacture a trend.
 
 ## Draw and refine
 

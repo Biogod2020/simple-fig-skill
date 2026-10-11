@@ -6,7 +6,7 @@ from html import escape
 from pathlib import Path
 
 COLORS = {
-    'ink': '#202937', 'muted': '#697586', 'blue': '#3164AD',
+    'ink': '#000000', 'muted': '#697586', 'blue': '#3164AD',
     'purple': '#7962AB', 'teal': '#21877B', 'orange': '#BF642F',
     'gray': '#98A3B1', 'light': '#DCE2E9', 'white': '#FFFFFF',
 }

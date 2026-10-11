@@ -4,20 +4,27 @@ Use this as a starting style, adapting proportions to the actual evidence.
 
 ## Typography and hierarchy
 
-One bold panel letter followed by one short semibold title. Usually use a
-2–5-word noun phrase; do not trade away scientific precision just to satisfy a
-word count. No visible overall banner, secondary subtitle, or explanatory
-paragraph inside the figure. A figure caption outside the artwork may explain
-the scientific claim, definitions and limitations.
+One bold panel letter followed by one short regular or semibold title. Usually
+use a 2–5-word noun phrase; do not trade away scientific precision just to
+satisfy a word count. No visible overall banner, secondary subtitle, or
+explanatory paragraph inside the figure. A caption outside the artwork may
+explain the scientific claim, definitions and limitations.
 
 Use a portable sans-serif family consistently (for example Arial/Helvetica or
-a verified installed substitute). Verify the actual font used by the renderer.
-Node labels can use a lighter font weight than titles, but ordinary text stays
-dark: do not use pale gray to create hierarchy. Prefer `#222222` throughout a
-reference-matched figure, including axes, ticks, legends, scale bars and local
-annotations. White text is reserved for genuinely dark cells or backgrounds.
-“No subtitle” does not remove the brief action/object labels needed to read a
-workflow. Keep them next to their object rather than in another full-width row.
+a verified installed substitute such as Nimbus Sans). Verify the actual font
+used by the renderer. Default ordinary text to pure black `#000000`: titles,
+axes, ticks, legends, scale labels and local annotations. Use ordinary body
+weight and modest size differences; keep bold for panel letters and occasional
+short titles rather than every number, gene or result. Avoid decorative display
+fonts and branding-style colored/bold headings.
+
+When the author requests all-black text, use a small white label backing on a
+dark tissue image so the label stays readable. A scale-bar stroke can remain
+white for contrast; it is a graphical mark, not lettering. Preserve its length
+and image calibration. Otherwise, an established dark-ink style or a justified
+high-contrast label can be retained when the current task calls for it.
+“No subtitle” does not remove brief action/object labels needed to read a
+workflow. Keep them next to their object rather than in a full-width row.
 
 For a 1400 × 850 SVG, start with:
 
@@ -43,7 +50,7 @@ labels or simplify the panel if needed; do not rely on zoomed previews.
 
 | Role | Color | Use |
 |---|---|---|
-| Ink | `#202937` | Titles and primary text |
+| Ink | `#000000` | Ordinary text, titles and axes |
 | Muted | `#697586` | Neutral graphical marks; ordinary text still uses ink |
 | Blue | `#3164AD` | Primary method / evidence |
 | Purple | `#7962AB` | Transformation / generation |
@@ -57,7 +64,8 @@ Assign a color a consistent meaning within each figure. Method colors and
 class colors need not be identical, but their legends must be unambiguous.
 Use text, position or shape as well as color. On gray fills, prefer ink labels
 over white; verify contrast rather than assuming every palette pair works.
-Do not recolor scientific images, masks or heatmaps to match this palette.
+Changing text to black does not desaturate scientific images, expression maps,
+cell boundaries, curves or heatmaps. Preserve those meaningful encodings.
 
 ## Layout recipes
 

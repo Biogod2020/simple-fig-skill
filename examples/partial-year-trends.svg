@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="830" viewBox="0 0 1400 830">
+<desc>Synthetic counts only; not research results. Complete-year curves and separate year-to-date shares.</desc>
+<rect width="1400" height="830" fill="white"/>
+<text x="40" y="55" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#000000" font-weight="700" text-anchor="start" class="panel-letter">a</text>
+<text x="77" y="55" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#000000" font-weight="600" text-anchor="start" class="panel-title">Bulk RNA</text>
+<text x="40" y="101" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="start" class="">Synthetic annual share (%)</text>
+<text x="1080" y="74" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="start" class="">2026 YTD</text>
+<text x="1080" y="110" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="start" class="">through 9 Oct</text>
+<path d="M1040 128V370" fill="none" stroke="#DCE2E9" stroke-width="1.5" stroke-dasharray=""/>
+<path d="M115 310.0H970" fill="none" stroke="#DCE2E9" stroke-width="1" stroke-dasharray=""/>
+<text x="98" y="319.0" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="end" class="">0</text>
+<path d="M115 225.0H970" fill="none" stroke="#DCE2E9" stroke-width="1" stroke-dasharray=""/>
+<text x="98" y="234.0" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="end" class="">50</text>
+<path d="M115 140.0H970" fill="none" stroke="#DCE2E9" stroke-width="1" stroke-dasharray=""/>
+<text x="98" y="149.0" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="end" class="">100</text>
+<path d="M115.000 168.560 L237.143 176.040 L359.286 187.600 L481.429 194.400 L603.571 201.200 L725.714 204.600 L847.857 211.400 L970.000 218.200" fill="none" stroke="#7962AB" stroke-width="3" stroke-dasharray=""/>
+<circle cx="970.0" cy="218.2" r="5" fill="#7962AB"/>
+<path d="M1144 239.16666666666669 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0" fill="#FFFFFF" stroke="#7962AB" stroke-width="2.5" stroke-dasharray=""/>
+<text x="1172" y="248.16666666666669" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#000000" font-weight="400" text-anchor="start" class="">41.7%</text>
+<path d="M115.0 310V318" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray=""/>
+<text x="115.0" y="352" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="middle" class="">2018</text>
+<path d="M359.2857142857143 310V318" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray=""/>
+<text x="359.2857142857143" y="352" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="middle" class="">2020</text>
+<path d="M603.5714285714286 310V318" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray=""/>
+<text x="603.5714285714286" y="352" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="middle" class="">2022</text>
+<path d="M970.0 310V318" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray=""/>
+<text x="970.0" y="352" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="middle" class="">2025</text>
+<text x="40" y="445" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#000000" font-weight="700" text-anchor="start" class="panel-letter">b</text>
+<text x="77" y="445" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#000000" font-weight="600" text-anchor="start" class="panel-title">Spatial sequencing</text>
+<text x="40" y="491" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="start" class="">Synthetic annual share (%)</text>
+<text x="1080" y="464" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="start" class="">2026 YTD</text>
+<text x="1080" y="500" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="start" class="">through 9 Oct</text>
+<path d="M1040 518V760" fill="none" stroke="#DCE2E9" stroke-width="1.5" stroke-dasharray=""/>
+<path d="M115 700.0H970" fill="none" stroke="#DCE2E9" stroke-width="1" stroke-dasharray=""/>
+<text x="98" y="709.0" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="end" class="">0</text>
+<path d="M115 615.0H970" fill="none" stroke="#DCE2E9" stroke-width="1" stroke-dasharray=""/>
+<text x="98" y="624.0" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="end" class="">3</text>
+<path d="M115 530.0H970" fill="none" stroke="#DCE2E9" stroke-width="1" stroke-dasharray=""/>
+<text x="98" y="539.0" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="end" class="">6</text>
+<path d="M115.000 688.667 L237.143 688.667 L359.286 677.333 L481.429 666.000 L603.571 643.333 L725.714 620.667 L847.857 586.667 L970.000 552.667" fill="none" stroke="#21877B" stroke-width="3" stroke-dasharray=""/>
+<circle cx="970.0" cy="552.6666666666666" r="5" fill="#21877B"/>
+<path d="M1144 605.5555555555555 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0" fill="#FFFFFF" stroke="#21877B" stroke-width="2.5" stroke-dasharray=""/>
+<text x="1172" y="614.5555555555555" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#000000" font-weight="400" text-anchor="start" class="">3.3%</text>
+<path d="M115.0 700V708" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray=""/>
+<text x="115.0" y="742" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="middle" class="">2018</text>
+<path d="M359.2857142857143 700V708" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray=""/>
+<text x="359.2857142857143" y="742" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="middle" class="">2020</text>
+<path d="M603.5714285714286 700V708" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray=""/>
+<text x="603.5714285714286" y="742" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="middle" class="">2022</text>
+<path d="M970.0 700V708" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray=""/>
+<text x="970.0" y="742" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#000000" font-weight="400" text-anchor="middle" class="">2025</text>
+</svg>

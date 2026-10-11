@@ -105,6 +105,13 @@ results, or establishes complete publication compliance.
 2. Inspect every panel and the entire figure at intended width. Check text/data
    collisions, image scale bars, legend contrast, clipping, actual fonts and
    caption correspondence. Preserve scientifically meaningful color mappings.
+   For an all-black typography request, check actual text colors as well as the
+   font family and weight in the PDF; checking only the configured font name
+   misses colored/bold result styling. Inspect labels on dark images with their
+   backing and scale marks. Do not replace image or data colors globally.
+   For time series, verify the final-period cutoff, point/line treatment and
+   period denominator. For curated galleries, verify source image type, full
+   field versus crop, display level and selection criteria.
 3. Measure final comparable plot areas: shared edges, axis baselines, widths,
    heights and repeated gutters. A hero panel can intentionally span cells;
    document comparable groups and exceptions. The renderer does not do this

@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-10-11 — Resource galleries, plain typography and partial-year trends
+
+- Capture an author-accepted resource-figure revision: plain black lettering,
+  ordinary font weights, intact scientific colors and readable black labels
+  on dark images; align the SVG helper and both existing examples with this style.
+- Distinguish current year-to-date observations from complete annual curves,
+  retain the observed-period denominator and cutoff, and explain independent
+  axes/row color ranges without implying comparable slopes or prevalence.
+- Choose gallery examples by technology relevance and final-size visual
+  legibility, rather than maximum observation count or strict novelty; keep
+  image modality, measured field, display level and selection explicit.
+- Separate resource galleries from intent retrieval when they answer different
+  questions, preserving an accepted overview rather than fixing a figure count.
+- Add an editable partial-year demo and count/denominator ledger using only
+  synthetic data. No research images, results, private paths, new dependencies
+  or publication-wide workflow requirements are included.
+
 ## 2026-09-15 — Concrete agent figures and resolved author preferences
 
 - Summarize the full figure-review cycle, separating enduring preferences

@@ -10,7 +10,9 @@
 
 ## 本轮制图经验已纳入
 
-- **作者偏好与返工总结**：[完整记录](references/session-lessons.md)。专业简洁，不走手绘风；普通文字用深色；增加信息密度时补机制和证据，保留认可版做局部修订。
+- **作者偏好与返工总结**：[完整记录](references/session-lessons.md)。专业简洁，不走手绘风；普通文字默认纯黑、常规字重；增加信息密度时补机制和证据，保留认可版做局部修订。
+- **资源图集与不完整年度**：[本轮经验](references/session-lessons.md#6-2026-10-11资源图集与检索图的进一步经验)、[通用画法](references/evidence-design.md#resource-galleries-and-time-trends)。按主流技术和真实图像可读性选实例；YTD 与完整年度区分，保留真实值；资源 gallery 与检索证据按科学问题分图。
+- **部分年度示例**：[可编辑图与虚构数据说明](examples/partial-year-trends.md)。纯黑普通文字，数据曲线保留颜色；完整年度线到 2025，2026 年内观测作为独立空心点。
 - **具体 agent 方法图**：[操作指南](references/agent-method-figures.md)。展示工具作用、中间对象、检查与修订；机器人参与真实流程；总览与后续方法图各讲一个问题。
 - **13 篇范文的设计模式**：[图号与来源](references/paper-patterns.md)。逐篇区分 NBME、Nature Methods、ICLR、NeurIPS 和预印本，记录借鉴什么、不能移植什么。
 - **密集而可读的导出**：[混合矢量/位图](references/export-and-check.md#hybrid-vectorraster-figures)。点阵和图像可以嵌入 PNG，文字与流程保持矢量；不靠删点缩小文件。

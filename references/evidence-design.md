@@ -27,6 +27,12 @@ alone does not justify more panels. Remove a panel mentally: what inference
 would disappear? Repetition belongs in a shared axis, supplement or nowhere.
 Never demote a negative result that materially changes the claim.
 
+A resource gallery and intent-based retrieval answer different questions:
+what real data are available, and which evidence matches a query. When combining
+them obscures either story, give them separate figures and keep the accepted
+overview as the shared context. This is a content decision, not a fixed figure
+count or a requirement to split every resource paper.
+
 A useful reading sequence is **establish -> compare/control -> qualify**.
 Use only the steps the evidence needs. A method diagram is not a default opening
 panel, nor does every figure need an ablation or a representative image.
@@ -118,6 +124,65 @@ from aggregate counts, or independent replication from correlated cells,
 patches or repeated measurements. Missingness is not the same as zero. Prefer
 small multiples to radar charts when axis normalization or area would mislead.
 Do not manufacture uncertainty, statistics or measurements to complete a layout.
+
+## Resource galleries and time trends
+
+### Choose examples for what the reader can see
+
+Select a small set of relevant major technologies, then choose real specimens
+whose tissue structure, spatial organization or measured signal is legible at
+the final tile size. Platform prevalence can guide coverage, but the largest
+sample or newest accession is not automatically the clearest exemplar. Where
+useful, check candidates with registered images as well as high-count matrices;
+a sparse montage of disconnected fields may be less informative than an intact
+field with visible nuclei and segmentation.
+
+Complement a large morphology/expression view with secondary examples; reuse
+an already shown technology or specimen when it serves a new evidence role.
+Novelty is not a reason to replace a strong example with a weaker one. Keep a
+small selection note: source identity, technology, tissue/species, image type
+and why it was chosen. A curated gallery illustrates capabilities; it is not an
+unbiased comparison of quality or a population effect. A coverage percentage,
+if shown, counts the named platforms in the registered release, not the
+quality of the selected images.
+
+Label H&E, DAPI, multichannel composite, segmentation and spatial total-count
+maps according to the actual source; their colors do not make them equivalent
+image modalities. Retain image aspect ratio, coordinate alignment and encoded
+channels. An image-pyramid level can preserve a whole field at a useful display
+resolution; record the source/display dimensions and avoid inventing a scale
+bar when calibration is absent. For a declared crop, keep its bounds and any
+spatial observations excluded by that window. Matching image and expression
+maps should use the same measured field and cell/spot identities.
+
+### Keep partial periods distinct from complete years
+
+Decide whether the question is absolute volume, composition or growth. For a
+modality's annual share, divide its count by all eligible records from the same
+period. Labels may overlap; do not silently force those shares to sum to 100%.
+If a dominant category hides rarer technologies, aligned small multiples with
+clearly labeled independent percentage axes can show each trajectory. Use
+shared axes when comparing magnitudes or slopes across categories; independent
+axes support within-category trends, not relative growth-rate claims.
+
+A current year is still incomplete even when its record count exceeds earlier
+full years. Keep the complete-year curve ending at the last complete period;
+show the latest year-to-date value separately, for example as an open point in
+an adjacent column labeled `YTD` and its cutoff date. The point can sit lower or
+higher: preserve its true value. Do not claim that the cutoff alone explains
+the difference. Annualizing counts does not repair a compositional denominator,
+and changing values or hiding a genuine negative result does not repair the
+presentation. If the question requires annual change, use a supported matched
+calendar window across years and disclose that window.
+
+For a trend heatmap, use sequential colors rather than making every modality
+share the dominant category's range. When rows are normalized independently,
+state that mapping and give each row's absolute range; equal color strength
+then describes position within a row, not equal prevalence across rows. Keep
+all relevant rows in a supplement if only a few explain the main question.
+
+See the [synthetic partial-year example](../examples/partial-year-trends.md) for
+an editable demonstration; it contains no project data or biological images.
 
 ## 6. Final review
 

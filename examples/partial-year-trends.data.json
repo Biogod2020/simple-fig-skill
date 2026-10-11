@@ -1,0 +1,170 @@
+{
+  "data_status": "synthetic; not research results",
+  "independent_y_axes": true,
+  "rows": [
+    {
+      "modality": "Bulk RNA",
+      "year": 2018,
+      "count": 208,
+      "eligible_records": 250,
+      "share_pct": 83.2,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Bulk RNA",
+      "year": 2019,
+      "count": 197,
+      "eligible_records": 250,
+      "share_pct": 78.8,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Bulk RNA",
+      "year": 2020,
+      "count": 180,
+      "eligible_records": 250,
+      "share_pct": 72.0,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Bulk RNA",
+      "year": 2021,
+      "count": 170,
+      "eligible_records": 250,
+      "share_pct": 68.0,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Bulk RNA",
+      "year": 2022,
+      "count": 160,
+      "eligible_records": 250,
+      "share_pct": 64.0,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Bulk RNA",
+      "year": 2023,
+      "count": 155,
+      "eligible_records": 250,
+      "share_pct": 62.0,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Bulk RNA",
+      "year": 2024,
+      "count": 145,
+      "eligible_records": 250,
+      "share_pct": 58.0,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Bulk RNA",
+      "year": 2025,
+      "count": 135,
+      "eligible_records": 250,
+      "share_pct": 54.0,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Bulk RNA",
+      "year": 2026,
+      "count": 25,
+      "eligible_records": 60,
+      "share_pct": 41.666666666666664,
+      "period": "year to date",
+      "cutoff": "2026-10-09",
+      "display": "separate open point"
+    },
+    {
+      "modality": "Spatial sequencing",
+      "year": 2018,
+      "count": 1,
+      "eligible_records": 250,
+      "share_pct": 0.4,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Spatial sequencing",
+      "year": 2019,
+      "count": 1,
+      "eligible_records": 250,
+      "share_pct": 0.4,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Spatial sequencing",
+      "year": 2020,
+      "count": 2,
+      "eligible_records": 250,
+      "share_pct": 0.8,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Spatial sequencing",
+      "year": 2021,
+      "count": 3,
+      "eligible_records": 250,
+      "share_pct": 1.2,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Spatial sequencing",
+      "year": 2022,
+      "count": 5,
+      "eligible_records": 250,
+      "share_pct": 2.0,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Spatial sequencing",
+      "year": 2023,
+      "count": 7,
+      "eligible_records": 250,
+      "share_pct": 2.8,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Spatial sequencing",
+      "year": 2024,
+      "count": 10,
+      "eligible_records": 250,
+      "share_pct": 4.0,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Spatial sequencing",
+      "year": 2025,
+      "count": 13,
+      "eligible_records": 250,
+      "share_pct": 5.2,
+      "period": "complete year",
+      "display": "annual curve"
+    },
+    {
+      "modality": "Spatial sequencing",
+      "year": 2026,
+      "count": 2,
+      "eligible_records": 60,
+      "share_pct": 3.3333333333333335,
+      "period": "year to date",
+      "cutoff": "2026-10-09",
+      "display": "separate open point"
+    }
+  ]
+}
