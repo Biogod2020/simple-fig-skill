@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-10-11 — Research presentation subproject
+
+- Add the standalone `skills/simple-research-slides` skill, distilled from an
+  actual advisor-talk revision: confirmed references, evidence-led narrative,
+  readable figures, explicit data roles, timed notes and concrete questions.
+- Separate strict novice comprehension review from inspection of rendered
+  slides, with an on-demand review prompt and practical revision lessons.
+- Include a self-contained white-background HTML starter with five editable
+  layouts and clearly disclosed synthetic examples. Time and page count remain
+  task choices, and no private reports, research figures or session logs ship.
+- Add local HTML-to-PDF/PNG export, notes, screen/print geometry checks and
+  browser regressions using the existing Playwright/Chromium dependencies.
+- Link the child skill from the README and parent entrypoint; preserve the
+  original paper-figure tools and design workflow.
+
 ## 2026-09-15 — Concrete agent figures and resolved author preferences
 
 - Summarize the full figure-review cycle, separating enduring preferences
