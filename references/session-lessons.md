@@ -93,3 +93,7 @@
 
 可迁移的构图判断、案例组织与不应照搬的局部规则见
 [composition-from-approved-work.md](composition-from-approved-work.md)。其中记录调研所得与被否决版本的问题，不把本次待作者查看的新图写成“作者已认可”。
+
+## 8. 2026-10-28：资源论文 Fig.1 + Fig.2 定稿
+
+另一篇资源论文的总览图与机制图经多轮重绘获作者认可。稳定的新偏好：总览图只讲工作流与资源，量化指标全部放机制图；灰色底框只标流程阶段，图表面板用留白和细线；去掉逐阶段粉彩；人工复核用结构位置和专用颜色表达，不画漂浮人像；扁平矢量小图标代替 emoji；作者否决时给三个概念不同的方案。细节与过度声明检查清单见 [overview-and-mechanism-figures.md](overview-and-mechanism-figures.md)。

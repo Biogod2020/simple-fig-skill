@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-28 — Overview and mechanism figures
+
+- Add `references/overview-and-mechanism-figures.md`, distilled from an
+  author-approved Fig.1 (overview) and Fig.2 (mechanism and checks) of a resource
+  paper: workflow-only overview, metrics moved to the mechanism figure, grey
+  grounds reserved for workflow stages, a semantic palette without per-stage
+  pastels, automatic loop versus one human review, real material and real run
+  logs in mechanism panels, varied but academic chart forms, partial-year trend
+  lines, a three-variant redesign process and an overclaim checklist.
+- Add `scripts/minicons.py`, flat SVG icons (file types, tools, objects) that
+  replace emoji glyphs, with `tests/test_minicons.py`.
+- No research data, images, numbers or private paths are included.
+
 ## 2026-10-11 — Resource galleries, plain typography and partial-year trends
 
 - Capture an author-accepted resource-figure revision: plain black lettering,

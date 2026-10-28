@@ -69,6 +69,14 @@ When continuing this author's style or interpreting requests such as “less AI,
 preferences from superseded local choices. Do not apply historical figure
 counts, height ratios, chart choices or numerical results to unrelated work.
 
+For an overview figure paired with a mechanism/validation figure (for example a
+resource or agent paper's Fig.1 and Fig.2), read
+[overview-and-mechanism-figures.md](references/overview-and-mechanism-figures.md):
+workflow only in the overview and every metric in the mechanism figure; grey
+grounds only for workflow stages; how to show an automatic loop versus one human
+review; flat icons from [minicons.py](scripts/minicons.py); and offering three
+conceptually different redesigns after a rejection.
+
 For a substantial redraw after an aesthetic rejection, read
 [composition-from-approved-work.md](references/composition-from-approved-work.md).
 Compare approved complete figures with their scripts and revision history:
